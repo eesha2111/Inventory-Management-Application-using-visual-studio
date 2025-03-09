@@ -1,0 +1,40 @@
+E:\visual studio\Inventory Management Application\Inventory Management Application\bin\Debug\Inventory Management Application.exe.config
+E:\visual studio\Inventory Management Application\Inventory Management Application\bin\Debug\Inventory Management Application.exe
+E:\visual studio\Inventory Management Application\Inventory Management Application\bin\Debug\Inventory Management Application.pdb
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory Management Application.csproj.AssemblyReference.cache
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory Management Application.csproj.SuggestedBindingRedirects.cache
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.Properties.Resources.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory Management Application.csproj.GenerateResource.cache
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory Management Application.csproj.CoreCompileInputs.cache
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory Management Application.exe
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory Management Application.pdb
+E:\visual studio\Inventory Management Application\Inventory Management Application\bin\Debug\ChoseFunction.resx
+E:\visual studio\Inventory Management Application\Inventory Management Application\bin\Debug\ChoseFunction.cs
+E:\visual studio\Inventory Management Application\Inventory Management Application\bin\Debug\ChoseFunction.Designer.cs
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm1Con.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm10UP.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm11US.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm12UC.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm13UT.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm14UU.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm15DP.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.fm16DS.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm17DC.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm18DT.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm19DU.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm2ver.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm20SP.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm21SS.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm22SC.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm23ST.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm24SU.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm25URec.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm26DRec.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm27SRec.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm3chos.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm4IRec.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm5IP.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm6IS.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm7IC.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm8IT.resources
+E:\visual studio\Inventory Management Application\Inventory Management Application\obj\Debug\Inventory_Management_Application.frm9IU.resources
