@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF09CD86-40CD-4418-9572-271D3C32FAE9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Inventory_Management_Application</RootNamespace>
+    <AssemblyName>Inventory Management Application</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBconnection.cs" />
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updPRO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updPRO.Designer.cs">
+      <DependentUpon>updPRO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updSALE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updSALE.Designer.cs">
+      <DependentUpon>updSALE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updCUST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updCUST.Designer.cs">
+      <DependentUpon>updCUST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updSATRAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updSATRAN.Designer.cs">
+      <DependentUpon>updSATRAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updUSER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updUSER.Designer.cs">
+      <DependentUpon>updUSER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delPRO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delPRO.Designer.cs">
+      <DependentUpon>delPRO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delSALE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delSALE.Designer.cs">
+      <DependentUpon>delSALE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delCUST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delCUST.Designer.cs">
+      <DependentUpon>delCUST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delSATRAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delSATRAN.Designer.cs">
+      <DependentUpon>delSATRAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delUSER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delUSER.Designer.cs">
+      <DependentUpon>delUSER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Verify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Verify.Designer.cs">
+      <DependentUpon>Verify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showPRO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showPRO.Designer.cs">
+      <DependentUpon>showPRO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showSALE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showSALE.Designer.cs">
+      <DependentUpon>showSALE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showCUST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showCUST.Designer.cs">
+      <DependentUpon>showCUST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showSATRAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showSATRAN.Designer.cs">
+      <DependentUpon>showSATRAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showUSER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showUSER.Designer.cs">
+      <DependentUpon>showUSER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoseTabUPD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoseTabUPD.Designer.cs">
+      <DependentUpon>ChoseTabUPD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoseTabDEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoseTabDEL.Designer.cs">
+      <DependentUpon>ChoseTabDEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoseTabSHOW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoseTabSHOW.Designer.cs">
+      <DependentUpon>ChoseTabSHOW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoseFunction.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ChoseFunction.Designer.cs">
+      <DependentUpon>ChoseFunction.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ChoseTabINS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoseTabINS.Designer.cs">
+      <DependentUpon>ChoseTabINS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insPRO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insPRO.Designer.cs">
+      <DependentUpon>insPRO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insSALE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insSALE.Designer.cs">
+      <DependentUpon>insSALE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insCUST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insCUST.Designer.cs">
+      <DependentUpon>insCUST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insSATRAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insSATRAN.Designer.cs">
+      <DependentUpon>insSATRAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insUSER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insUSER.Designer.cs">
+      <DependentUpon>insUSER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updPRO.resx">
+      <DependentUpon>updPRO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updSALE.resx">
+      <DependentUpon>updSALE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updCUST.resx">
+      <DependentUpon>updCUST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updSATRAN.resx">
+      <DependentUpon>updSATRAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updUSER.resx">
+      <DependentUpon>updUSER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delPRO.resx">
+      <DependentUpon>delPRO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delSALE.resx">
+      <DependentUpon>delSALE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delCUST.resx">
+      <DependentUpon>delCUST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delSATRAN.resx">
+      <DependentUpon>delSATRAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delUSER.resx">
+      <DependentUpon>delUSER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Verify.resx">
+      <DependentUpon>Verify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showPRO.resx">
+      <DependentUpon>showPRO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showSALE.resx">
+      <DependentUpon>showSALE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showCUST.resx">
+      <DependentUpon>showCUST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showSATRAN.resx">
+      <DependentUpon>showSATRAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showUSER.resx">
+      <DependentUpon>showUSER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoseTabUPD.resx">
+      <DependentUpon>ChoseTabUPD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoseTabDEL.resx">
+      <DependentUpon>ChoseTabDEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoseTabSHOW.resx">
+      <DependentUpon>ChoseTabSHOW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoseFunction.resx">
+      <DependentUpon>ChoseFunction.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoseTabINS.resx">
+      <DependentUpon>ChoseTabINS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insPRO.resx">
+      <DependentUpon>insPRO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insSALE.resx">
+      <DependentUpon>insSALE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insCUST.resx">
+      <DependentUpon>insCUST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insSATRAN.resx">
+      <DependentUpon>insSATRAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insUSER.resx">
+      <DependentUpon>insUSER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
