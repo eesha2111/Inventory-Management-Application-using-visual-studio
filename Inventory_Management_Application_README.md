@@ -2,7 +2,6 @@
 
 A C# Windows Forms inventory management application built in Microsoft Visual Studio. The system provides a desktop interface for managing products, sales, customers, sales transactions, and users through basic CRUD operations.
 
-Repository: [eesha2111/Inventory-Management-Application-using-visual-studio](https://github.com/eesha2111/Inventory-Management-Application-using-visual-studio)
 
 ## Overview
 
